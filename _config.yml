@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yuqi Hu"
   pronouns         : # example: "she/her"  
-  bio              : "A researcher aims at integrating domain knowledge into AI models"
+  bio              : # "A researcher aims at integrating domain knowledge into AI models"
   location         : "Singapore"
   employer         : "Red Brick University"
   uri              : # URL
