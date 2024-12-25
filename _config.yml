@@ -23,11 +23,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yuqi Hu"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he" 
   bio              : "An AI researcher"
   location         : "Singapore"
   employer         : "Red Brick University"
-  # uri              : # URL
+  uri              : # URL
   email            : "hyq18810020324@hotmail.com" 
 
   # Academic websites
