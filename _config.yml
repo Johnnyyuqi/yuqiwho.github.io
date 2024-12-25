@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yuqi Hu/Personal Homepage"
+title                    : "Yuqi Hu"
 title_separator          : "-"
 name                     : &name "Yuqi Hu"
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yuqi Hu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "A researcher aims at integrating domain knowledge into AI models"
   location         : "Singapore"
   employer         : "Red Brick University"
   uri              : # URL
