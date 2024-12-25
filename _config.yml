@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yuqi Hu 扈与祺"
+  name             : "Yuqi Hu"
   pronouns         : # example: "she/her"  
   bio              : "A growing researcher focusing on the intersection of AI and medicine"
   location         : "Singapore"
