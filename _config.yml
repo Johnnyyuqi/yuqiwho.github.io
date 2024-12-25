@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Yuqi Hu"
   pronouns         : # example: "she/her"  
-  bio              : "A burgeoning researcher focusing on the intersection \n of Artificial Intelligence and medicine"
+  bio              : "A burgeoning researcher focusing on the intersection\nof Artificial Intelligence and medicine"
   location         : "Singapore"
   employer         : # "Red Brick University"
   uri              : # URL
