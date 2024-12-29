@@ -5,12 +5,20 @@
 /*
    Default
    ========================================================================== */
+
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
   @include clearfix();
   margin-bottom: 1em;
+
+  @media screen and (min-width: $sidebar-screen-min-width) {
+    height: 100vh;
+    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    position: fixed;
+    padding-top: $masthead-height;
+  }
 
   @include breakpoint($large) {
     @include span(2 of 12);
@@ -24,6 +32,7 @@
   }
 
   @include breakpoint($x-large) {
+    max-width: $sidebar-link-max-width;
     padding-right: 0;
   }
 
@@ -71,6 +80,8 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
+  // set width only, for non-square avatars
+  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -112,10 +123,25 @@
     margin-bottom: 10px;
   }
 }
-
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+}
+
+.sidebar .author__desktop {
+  display: none;
+  @media screen and (min-width: 1024px) {
+    display: block;
+  }
+}
+
+.author__pronouns {
+  margin: 0;
+
+  @include breakpoint($large) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 .author__bio {
@@ -133,6 +159,7 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
+  position: relative;
   cursor: pointer;
 
   li:last-child {
@@ -151,12 +178,6 @@
     @include breakpoint($large) {
       display: none;
     }
-  }
-
-  ul {
-    padding-left: 0;
-    list-style: none;
-    margin: 0;
   }
 }
 
@@ -220,31 +241,17 @@
 
   li {
     white-space: nowrap;
-    display: flex;
-    align-items: center;
-    margin-bottom: 8px;
   }
 
   a {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 2px 0;
+    display: block;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-
-    i {
-      width: 16px;
-      margin-right: 8px;
-      text-align: left;
-      flex-shrink: 0;
-    }
-
-    span {
-      text-align: left;
-      flex-grow: 1;
-    }
 
     &:hover {
       text-decoration: underline;
