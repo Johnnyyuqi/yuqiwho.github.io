@@ -5,7 +5,6 @@
 /*
    Default
    ========================================================================== */
-
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
@@ -23,7 +22,6 @@
       opacity: 1;
     }
   }
-
 
   @include breakpoint($x-large) {
     padding-right: 0;
@@ -73,8 +71,6 @@
   display: table-cell;
   vertical-align: top;
   width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
@@ -116,6 +112,7 @@
     margin-bottom: 10px;
   }
 }
+
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
@@ -136,7 +133,6 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   cursor: pointer;
 
   li:last-child {
@@ -155,6 +151,12 @@
     @include breakpoint($large) {
       display: none;
     }
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
   }
 }
 
@@ -218,29 +220,32 @@
 
   li {
     white-space: nowrap;
-    display: flex;  // 添加这行
-    align-items: left;  // 添加这行
-    margin-bottom: 5px;  // 添加这行
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
   }
 
   a {
-    display: flex;  // 修改这行
-    align-items: left;  // 添加这行
-    padding-left: 5px;  // 添加这行
-    margin-bottom: 0;  // 修改这行
-    //display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2px 0;
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-    i {  // 添加图标样式
-      width: 20px;  // 添加这行，调整图标宽度
-      margin-right: 5px;  // 添加这行，调整图标右边距
-      text-align: center;  // 添加这行
+
+    i {
+      width: 16px;
+      margin-right: 8px;
+      text-align: left;
+      flex-shrink: 0;
     }
+
+    span {
+      text-align: left;
+      flex-grow: 1;
+    }
+
     &:hover {
       text-decoration: underline;
     }
