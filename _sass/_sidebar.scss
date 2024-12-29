@@ -219,13 +219,13 @@
   li {
     white-space: nowrap;
     display: flex;  // 添加这行
-    align-items: center;  // 添加这行
+    align-items: left;  // 添加这行
     margin-bottom: 5px;  // 添加这行
   }
 
   a {
     display: flex;  // 修改这行
-    align-items: center;  // 添加这行
+    align-items: left;  // 添加这行
     padding-left: 5px;  // 添加这行
     margin-bottom: 0;  // 修改这行
     //display: block;
