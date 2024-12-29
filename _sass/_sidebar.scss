@@ -236,7 +236,11 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
-
+    i {  // 添加图标样式
+      width: 20px;  // 添加这行，调整图标宽度
+      margin-right: 5px;  // 添加这行，调整图标右边距
+      text-align: center;  // 添加这行
+    }
     &:hover {
       text-decoration: underline;
     }
