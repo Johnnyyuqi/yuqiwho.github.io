@@ -359,13 +359,13 @@
 
 # Site Settings
 locale: "en-US"
-title: "Ziqi Huang"
+title: "Yuqi Hu"
 title_separator: "-"
-name: &name "Ziqi Huang"
+name: &name "Yuqi Hu"
 description: &description "personal description"
-url: https://ziqihuangg.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "ziqihuangg/ziqihuangg.github.io"
+url: https://johnnyyuqi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl: "/yuqiwho.github.io" # the subpath of your site, e.g. "/blog"
+repository: "academicpages/academicpages.github.io"
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
@@ -430,9 +430,9 @@ analytics:
 
 # Site Author
 author:
-  name: "Ziqi Huang 黄子琪"
-  avatar: "ziqi_huang.jpg"
-  bio: "PhD Student at MMLab@NTU"
+  name: "Yuqi Hu 扈与祺"
+  avatar: "new_profile_1.png"
+  #bio: "PhD Student at MMLab@NTU"
   location: "Singapore"
   employer:
   pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
