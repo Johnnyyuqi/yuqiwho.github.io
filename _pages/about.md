@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "About me"
+title: "Yuqi Hu"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello, I am Yuqi Hu. I am doing an internship at [Translational Mechanobiology Lab](https://hanrylab.med.nus.edu.sg/), National University of Singapore. My research interest includes integrating the medical domain knowledge into the machine learning framework to improve the efficiency of current models and utilizing the artificial intelligence models to give reliable solutions in medical science field.If you need further information, please refer to my [CV](../assets/new_cv.pdf).
+Welcome! I am Yuqi Hu, currently conducting research as an intern at the [Translational Mechanobiology Laboratory](https://hanrylab.med.nus.edu.sg/), National University of Singapore. My research focuses on integrating medical domain knowledge into machine learning frameworks to enhance model efficiency, and developing artificial intelligence solutions for challenges in medical science. If you need further information, please refer to my [CV](../assets/new_cv.pdf).
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
