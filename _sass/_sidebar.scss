@@ -218,10 +218,17 @@
 
   li {
     white-space: nowrap;
+    display: flex;  // 添加这行
+    align-items: center;  // 添加这行
+    margin-bottom: 5px;  // 添加这行
   }
 
   a {
-    display: block;
+    display: flex;  // 修改这行
+    align-items: center;  // 添加这行
+    padding-left: 5px;  // 添加这行
+    margin-bottom: 0;  // 修改这行
+    //display: block;
     margin-bottom: 5px;
     padding-right: 5px;
     padding-top: 2px;
