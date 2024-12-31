@@ -11,7 +11,7 @@ Welcome! I am Yuqi Hu, currently conducting research as an intern at the [Transl
 
 Education
 -----
-<img style="float: left; margin:5px 10px" src="/images/NTU_logo.png" width="160" height="140">
+<img style="float: left; margin:5px 10px" src="/images/editing-talk.png" width="160" height="140">
 ### Nanyang Technological University
 <p style="line-height:1.0">
 <font size="2">
