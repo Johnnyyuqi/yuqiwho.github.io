@@ -21,7 +21,7 @@ M.Sc. in Signal Processing<br />
 </font>
 </p>
 -----
-<img style="float: left; margin:5px 10px" src="{{ site.baseurl }}/images/NTU_logo.png" width="160" height="140">
+<img style="float: left; margin:5px 10px" src="{{ site.baseurl }}/images/bupt_logo.png" width="160" height="140">
 ### Beijing University of Posts and Telecommunications
 <p style="line-height:1.0">
 <font size="2">
