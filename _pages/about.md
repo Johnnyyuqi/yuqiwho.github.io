@@ -41,7 +41,7 @@ Research
     <h3 style="margin-bottom: 10px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 20px;">
         <!-- 图片宽度设置为100%，保持比例 -->
-        <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/surfboard.png">
+        <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_detection.png">
         <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: left;">
 I developed a spike-vision dataset conversion pipeline for COCO, PASCAL VOC, and proprietary datasets, thereby facilitating the efficient training of spiking neural networks. Furthermore, I implemented and optimized algorithms for the conversion from artificial neural networks (ANN) to spiking neural networks (SNN) for object detection tasks, with a primary focus on enhancing the efficiency of spike-based inference.
         </p>
