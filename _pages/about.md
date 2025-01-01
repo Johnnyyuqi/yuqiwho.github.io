@@ -38,7 +38,7 @@ Education
 Research
 -----
 <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-    <img style="width: 160px; height: 140px; margin-right: 20px; object-fit: contain;" src="{{ site.baseurl }}/images/bupt_logo.png">
+    <img style="width: 160px; height: 140px; margin-right: 20px; object-fit: contain;" src="{{ site.baseurl }}/images/surfboard.png">
     <div>
         <h3 style="margin-top: 0;">Design and implementation of object detection algorithm based on spiking neural network</h3>
         <p style="line-height: 1.5; font-size: 14px; margin: 0;">
