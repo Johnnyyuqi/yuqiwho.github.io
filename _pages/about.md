@@ -39,9 +39,10 @@ Research
 -----
 <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
     <h3 style="margin-bottom: 10px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
-    <div style="display: flex; flex-direction: column; align-items: center;">
-        <img style="width: 240px; height: 210px; object-fit: contain;" src="{{ site.baseurl }}/images/surfboard.png">
-        <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: left;">
+    <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+        <!-- 图片宽度设置为100%，保持比例 -->
+        <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/surfboard.png">
+        <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: center;">
             Developed a spike-vision dataset conversion pipeline for COCO, PASCAL VOC, and proprietary datasets, enabling
             efficient training of spiking neural networks.<br>
             Implemented and optimized ANN-to-SNN conversion algorithms for object detection tasks, focusing on spike-based
@@ -49,5 +50,6 @@ Research
         </p>
     </div>
 </div>
+
 
 
