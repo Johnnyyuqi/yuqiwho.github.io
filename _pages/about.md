@@ -43,7 +43,7 @@ Research
         <!-- 图片宽度设置为100%，保持比例 -->
         <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_detection.png">
         <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: left;">
-            I developed a spike-vision dataset conversion pipeline for COCO, PASCAL VOC, and proprietary datasets, thereby facilitating the efficient training of spiking neural networks. Furthermore, I implemented and optimized algorithms for the conversion from artificial neural networks (ANN) to spiking neural networks (SNN) for object detection tasks, with a primary focus on enhancing the efficiency of spike-based inference. <a href="{{ site.baseurl }}/research/2009-10-01-paper-title-number-1">[Read more]</a>.
+            I developed a spike-vision dataset conversion pipeline for COCO, PASCAL VOC, and proprietary datasets, thereby facilitating the efficient training of spiking neural networks. Furthermore, I implemented and optimized algorithms for the conversion from artificial neural networks (ANN) to spiking neural networks (SNN) for object detection tasks, with a primary focus on enhancing the efficiency of spike-based inference. <a href="{{ site.baseurl }}/research/object_detection">[Read more]</a>.
         </p>
     </div>
 </div>
