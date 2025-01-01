@@ -1,6 +1,6 @@
 ---
 title: "Design and implementation of object detection algorithm based on spiking neural network"
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2023
 venue: 'Object Detection'
 ---
 
