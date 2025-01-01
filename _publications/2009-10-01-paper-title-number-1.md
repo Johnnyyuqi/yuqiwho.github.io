@@ -1,7 +1,7 @@
 ---
 title: "Design and implementation of object detection algorithm based on spiking neural network"
 permalink: /publication/2009-10-01-paper-title-number-1
-venue: 'Journal 1'
+venue: 'Object Detection'
 ---
 
 Object detection is a popular task in the area of computer vision. It classifies all objects in an image while providing their sizes and positions through bounding boxes. In recent years, object detection has achieved extraordinary performances in many datasets and the accuracy of recognition has reached the level of human beings. However, with the further demand for low energy consumption and biological similarity of neural networks, there comes a trend to use spiking neural networks with low consumption, high efficiency and biological similarityto accomplish computer vision tasks. 
