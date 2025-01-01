@@ -38,7 +38,7 @@ Education
 Research
 -----
 <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5px;">
-    <h3 style="margin-bottom: 10px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
+    <h3 style="margin-bottom: 5px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 20px;">
         <!-- 图片宽度设置为100%，保持比例 -->
         <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_detection.png">
