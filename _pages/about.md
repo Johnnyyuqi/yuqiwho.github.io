@@ -38,14 +38,15 @@ Education
 Research
 -----
 <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
-    <img style="width: 160px; height: 140px; object-fit: contain;" src="{{ site.baseurl }}/images/surfboard.png">
-    <div>
-        <h3 style="margin-top: 10px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
-        <p style="line-height: 1.5; font-size: 14px; margin: 0;">
+    <h3 style="margin-bottom: 20px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img style="width: 160px; height: 140px; object-fit: contain;" src="{{ site.baseurl }}/images/surfboard.png">
+        <p style="line-height: 1.5; font-size: 14px; margin: 0; text-align: center;">
             Developed a spike-vision dataset conversion pipeline for COCO, PASCAL VOC, and proprietary datasets, enabling
-            efficient training of spiking neural networks<br>
+            efficient training of spiking neural networks.<br>
             Implemented and optimized ANN-to-SNN conversion algorithms for object detection tasks, focusing on spike-based
-            inference efficiency<br>
+            inference efficiency.
         </p>
     </div>
 </div>
+
