@@ -1,4 +1,3 @@
----
 title: "Design and implementation of object detection algorithm based on spiking neural network"
 collection: research
 permalink: /research/object_detection
@@ -20,6 +19,14 @@ Object detection is a popular task in the area of computer vision. It classifies
 Thus, after investigating the theory of object detection algorithms, spiking neural network and spiking camera, I built the spiking dataset based on the large-scale dataset COCO2017, PASCAL VOC and the tiny-scale dataset which made by myself. Also, I utilized the ANN to SNN transformation algorithm to transform the tailored tiny-yolo into the spiking neural network. After that, I improved the network’s performance with the optimizations such as channel normalization and robust normalization. As a result, the spiking neural network attains a similar performance with one-tenth energy consumption compared to the artificial neural network.
 </div>
 
-<img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_accuracy_result.png">
-<img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/energy_consumption.jpg">
+<figure>
+  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_accuracy_result.png">
+  <figcaption style="text-align: center; font-style: italic;">Figure 1: Accuracy results of the spiking neural network compared to traditional networks.</figcaption>
+</figure>
 
+<br>
+
+<figure>
+  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/energy_consumption.jpg">
+  <figcaption style="text-align: center; font-style: italic;">Figure 2: Energy consumption comparison between the spiking neural network and the artificial neural network.</figcaption>
+</figure>
