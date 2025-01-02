@@ -1,3 +1,4 @@
+---
 title: "Design and implementation of object detection algorithm based on spiking neural network"
 collection: research
 permalink: /research/object_detection
