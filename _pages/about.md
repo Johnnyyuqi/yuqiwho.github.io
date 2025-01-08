@@ -51,7 +51,7 @@ Research
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 10px;">
         <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/LLM.jpg">
         <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: left;">
-            I developed a spike-vision dataset conversion pipeline for COCO, PASCAL VOC, and proprietary datasets, thereby facilitating the efficient training of spiking neural networks. Furthermore, I implemented and optimized algorithms for the conversion from artificial neural networks (ANN) to spiking neural networks (SNN) for object detection tasks, with a primary focus on enhancing the efficiency of spike-based inference.
+            This project explores the use of a contrastive learning framework combined with ranking knowledge to enhance the generation and retrieval of sentence embeddings, aiming to more accurately identify the most similar sentences in in-context learning scenarios. Subsequent experiments tested various ranking strategies within the contrastive learning framework, yielding novel insights and conclusions.
         </p>
     </div>
 </div>
