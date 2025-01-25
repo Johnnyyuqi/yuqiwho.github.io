@@ -5,13 +5,9 @@ permalink: /research/contextual ranking
 date: 2023-05-27
 venue: 'Retrieval Augmented Generation'
 ---
-<video width="560" height="315" controls>
-  <source src="{{ site.baseurl }}/images/20230527_121914.mp4" type="video/mp4">
-  The result of the spiking object detection
-</video>
 
 <div style="text-align: justify;">
-Object detection is a popular task in the area of computer vision. It classifies all objects in an image while providing their sizes and positions through bounding boxes. In recent years, object detection has achieved extraordinary performances in many datasets and the accuracy of recognition has reached the level of human beings. However, with the further demand for low energy consumption and biological similarity of neural networks, there comes a trend to use spiking neural networks with low consumption, high efficiency and biological similarityto accomplish computer vision tasks. 
+Generating high-quality word and sentence representations is a foundational task in natural language processing (NLP). In recent years, various embedding methodologies have been proposed, notably those leveraging the capabilities of large language models for in-context learning. Research has shown that language model performance can be enhanced by integrating a query with multiple examples. Inspired by this research, this project explores the use of a contrastive learning framework combined with ranking knowledge to enhance the generation and retrieval of sentence embeddings, aiming to more accurately identify the most similar sentences in in-context learning scenarios.  
 </div>
 
 <br>
