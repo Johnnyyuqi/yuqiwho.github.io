@@ -51,7 +51,7 @@ Research
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 10px;">
         <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/LLM.jpg">
         <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: left;">
-            This project explores the use of a contrastive learning framework combined with ranking knowledge to enhance the generation and retrieval of sentence embeddings, aiming to more accurately identify the most similar sentences in in-context learning scenarios. Subsequent experiments tested various ranking strategies within the contrastive learning framework, yielding novel insights and conclusions.<a href="{{ site.baseurl }}/research/contextual_ranking">[Read more]</a>
+            This project explores the use of a contrastive learning framework combined with ranking knowledge to enhance the generation and retrieval of sentence embeddings, aiming to more accurately identify the most similar sentences in in-context learning scenarios. Subsequent experiments tested various ranking strategies within the contrastive learning framework, yielding novel insights and conclusions.<a href="{{ site.baseurl }}/research/2015-10-01-paper-title-number-3">[Read more]</a>
         </p>
     </div>
 </div>
