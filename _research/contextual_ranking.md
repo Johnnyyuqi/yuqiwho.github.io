@@ -26,10 +26,6 @@ Future research could involve deploying the pre-trained RankCSE model as a retri
 
 
 <figure>
-  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_accuracy_result.png">
-  <figcaption style="text-align: center; font-style: italic;">Figure 1: Accuracy results of the spiking neural network compared to traditional networks.</figcaption>
-</figure>
-<figure>
-  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/energy_consumption.jpg">
-  <figcaption style="text-align: center; font-style: italic;">Figure 2: Energy consumption comparison between the spiking neural network and the artificial neural network.</figcaption>
+  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/LLM.jpg">
+  <figcaption style="text-align: center; font-style: italic;"></figcaption>
 </figure>
