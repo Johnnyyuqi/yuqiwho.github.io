@@ -1,7 +1,7 @@
 ---
 title: "Ranking-Aware Contrastive Learning with Large Language Models"
 collection: research
-permalink: /research/contextual ranking
+permalink: /research/contextual_ranking
 date: 2023-05-27
 venue: 'Retrieval Augmented Generation'
 ---
