@@ -38,6 +38,15 @@ Education
 Research
 -----
 <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5px;">
+    <h3 style="margin-bottom: 2px;">Neurite Morphology Analysis</h3>
+    <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 10px;">
+        <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_detection.png">
+        <p style="line-height: 1.5; font-size: 14px; margin: 10px 0; text-align: left;">
+            I developed a neurite analysis pipeline that integrates semantic segmentation into the analysis procedure to enhance quantitative image characterization. The pipeline reduces analysis time to one minute per image, one-tenth of the original manual processing time.<a href="{{ site.baseurl }}/research/object_detection">[Read more]</a>
+        </p>
+    </div>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5px;">
     <h3 style="margin-bottom: 2px;">Design and implementation of object detection algorithm based on spiking neural network</h3>
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 10px;">
         <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/spike_detection.png">
