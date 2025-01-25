@@ -37,7 +37,7 @@ Education
 
 Research
 -----
-<div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5px;">
+<div style="display: flex; flex-direction: column; align-items: left; margin-bottom: 5px;">
     <h3 style="margin-bottom: 2px;">Neurite Morphology Analysis</h3>
     <div style="display: flex; flex-direction: column; align-items: center; width: 100%; margin-top: 10px;">
         <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/neurite_comparison.png">
