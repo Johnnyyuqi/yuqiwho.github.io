@@ -18,6 +18,21 @@ The most common method for neurite analysis relies on ImageJ's Simple Neurite Tr
 
 <br>
 
+<figure>
+  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/circle_comparison.jpg">
+  <figcaption style="text-align: center; font-style: italic;">From the area within the red circle, we can observe that semantic segmentation enhances the quantitative characterization of the neurite</figcaption>
+</figure>
+
+<br>
+
+<figure>
+  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/neurite_process.jpeg">
+  <figcaption style="text-align: center; font-style: italic;">The designed automatic process pipeline</figcaption>
+</figure>
+
+
+<br>
+
 <div style="text-align: justify;">
 For normalization and survival index calculation, cell counting is a prerequisite step. I developed a pipeline based on ImageJ's StarDist plugin to recognize cells, incorporating threshold settings to eliminate small particles and generate final count results. Comparison with manual counting demonstrated that the automatic counting method is not only acceptable but achieves superior results due to the implemented image enhancement strategies.
 </div>
