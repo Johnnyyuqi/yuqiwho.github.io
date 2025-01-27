@@ -19,7 +19,7 @@ The most common method for neurite analysis relies on ImageJ's Simple Neurite Tr
 <br>
 
 <figure>
-  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/circle_comparison.jpg">
+  <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/circle_comparison.png">
   <figcaption style="text-align: center; font-style: italic;">From the area within the red circle, we can observe that semantic segmentation enhances the quantitative characterization of the neurite</figcaption>
 </figure>
 
