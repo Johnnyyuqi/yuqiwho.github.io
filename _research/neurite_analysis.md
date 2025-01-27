@@ -24,7 +24,7 @@ The most common method for neurite analysis relies on ImageJ's Simple Neurite Tr
 
 <figure style="text-align: center;">
   <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/neurite_process.png">
-  <figcaption style="text-align: center; font-style: italic;">The designed automatic process pipeline</figcaption>
+  <figcaption style="text-align: center; font-style: italic;"></figcaption>
 </figure>
 
 <div style="text-align: justify;">
