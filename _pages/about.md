@@ -65,5 +65,35 @@ Research
     </div>
 </div>
 
+Beyond Research
+-----
+<div style="display: flex; flex-direction: column; gap: 20px;">
+    <!-- Sports Section -->
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v12"/>
+            <path d="M8 10h8"/>
+        </svg>
+        <div>
+            <h3 style="margin: 0 0 10px 0;">Sports</h3>
+            <p style="margin: 0; line-height: 1.5;">Jogging, Soccer, American Football</p>
+        </div>
+    </div>
+    
+    <!-- Music Section -->
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18V5l12-2v13"/>
+            <circle cx="6" cy="18" r="3"/>
+            <circle cx="18" cy="16" r="3"/>
+        </svg>
+        <div>
+            <h3 style="margin: 0 0 10px 0;">Music</h3>
+            <p style="margin: 0; line-height: 1.5;">Erhu, Guitar, Composition, Music Comments</p>
+        </div>
+    </div>
+</div>
+
 
 
