@@ -22,7 +22,7 @@ The most common method for neurite analysis relies on ImageJ's Simple Neurite Tr
   <figcaption style="text-align: center; font-style: italic;">From the area within the red circle, we can observe that semantic segmentation enhances the quantitative characterization of the neurite</figcaption>
 </figure>
 
-<figure>
+<figure style="text-align: center;">
   <img style="width: 100%; height: auto; object-fit: contain;" src="{{ site.baseurl }}/images/neurite_process.jpeg">
   <figcaption style="text-align: center; font-style: italic;">The designed automatic process pipeline</figcaption>
 </figure>
